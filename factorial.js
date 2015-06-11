@@ -15,7 +15,7 @@ rl.question("Enter in a number, to find the factorial: ", function(input) {
     x = input;
     //Generate answer.
     for(var i = x; i > 0; i--) {
-      answer = i * answer;
+      answer *= i;
     }
     //We have our answer, output it and exit the script.
     console.log("Answer to %s! is: %s", x, answer);
